@@ -1,0 +1,11 @@
+Módulo de dependencia
+1. npm i express zod
+
+Módulos de desarrollo
+1. npm i typescript ts-node-dev -D
+2. npm i @types/express -D
+
+Configuraciones typescript
+1. npx tsc --init
+2. Decomentar "rootDir" --> para que pueda compilar el código ts (ej."rootDir"="./src") 
+3. Descomentar "outDir" --> especifique una carpeta de salida para todos los archivos emitidos (ej. "outDir"="./dist")
